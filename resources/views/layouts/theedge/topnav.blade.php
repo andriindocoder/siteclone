@@ -68,17 +68,17 @@
                 </div>
                 <div id="navbar-links" class="navbar navbar-links navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation" class=" active"><a role="menuitem" tabindex="0" href="/"><span tabindex="-1">Home</span></a></li>
-                    <li role="presentation" class=" "><a role="menuitem" tabindex="0" href="/villas.html"><span tabindex="-1">Villas</span></a></li>
-                    <li role="presentation" class=" "><a role="menuitem" tabindex="0" href="/oneeighty.html"><span tabindex="-1">oneeighty°</span></a></li>
-                    <li role="presentation" class=" "><a role="menuitem" tabindex="0" href="/facilities.html"><span tabindex="-1">Facilities</span></a></li>
-                    <li role="presentation" class="hidden-sm "><a role="menuitem" tabindex="0" href="/promotions.html"><span tabindex="-1">Whats on</span></a></li>
-                    <li role="presentation" class="hidden-sm "><a role="menuitem" tabindex="0" href="/eatdrink.html"><span tabindex="-1">Eat &amp; Drink</span></a></li>
-                    <li role="presentation" class="hidden-sm hidden-md "><a role="menuitem" tabindex="0" href="/the-spa.html"><span tabindex="-1">The Spa</span></a></li>
-                    <li role="presentation" class="hidden-sm hidden-md "><a role="menuitem" tabindex="0" href="/weddings.html"><span tabindex="-1">Weddings</span></a></li>
-                    <li role="presentation" class="hidden-sm hidden-md hidden-lg "><a role="menuitem" tabindex="0" href="/experience.html"><span tabindex="-1">Experience</span></a></li>
-                    <li role="presentation" class="hidden-sm hidden-md hidden-lg "><a role="menuitem" tabindex="0" href="/contact-us.html"><span tabindex="-1">Contact Us</span></a></li>
-                    <li role="presentation" class="hidden-sm hidden-md hidden-lg "><a role="menuitem" tabindex="0" href="/media.html"><span tabindex="-1">Media</span></a></li>
+                    <li role="presentation" class={{ request()->is('/') ? 'active' : '' }}><a role="menuitem" tabindex="0" href="/"><span tabindex="-1">Home</span></a></li>
+                    <li role="presentation" class={{ request()->is('villas') ? 'active' : '' }}><a role="menuitem" tabindex="0" href="{{ url('/villas')}}"><span tabindex="-1">Villas</span></a></li>
+                <li role="presentation" class={{ request()->is('oneeighty') ? 'active' : '' }}><a role="menuitem" tabindex="0" href="{{ url('/oneeighty') }}"><span tabindex="-1">oneeighty°</span></a></li>
+                    <li role="presentation" class={{ request()->is('facilities') ? 'active' : '' }}><a role="menuitem" tabindex="0" href="{{ url('/facilities') }}"><span tabindex="-1">Facilities</span></a></li>
+                    <li role="presentation" class="hidden-sm {{ request()->is('promotions') ? 'active' : '' }}"><a role="menuitem" tabindex="0" href="{{ url('/promotions')}}"><span tabindex="-1">Whats on</span></a></li>
+                    <li role="presentation" class="hidden-sm {{ request()->is('eatdrink') ? 'active' : '' }}"><a role="menuitem" tabindex="0" href="{{ url('/eatdrink') }}"><span tabindex="-1">Eat &amp; Drink</span></a></li>
+                    <li role="presentation" class="hidden-sm hidden-md  {{ request()->is('the-spa') ? 'active' : '' }}"><a role="menuitem" tabindex="0" href="{{ url('/the-spa') }}"><span tabindex="-1">The Spa</span></a></li>
+                    <li role="presentation" class="hidden-sm hidden-md  {{ request()->is('weddings') ? 'active' : '' }}"><a role="menuitem" tabindex="0" href="{{ url('/weddings') }}"><span tabindex="-1">Weddings</span></a></li>
+                    <li role="presentation" class="hidden-sm hidden-md hidden-lg "><a role="menuitem" tabindex="0" href="{{ url('/experience') }}"><span tabindex="-1">Experience</span></a></li>
+                    <li role="presentation" class="hidden-sm hidden-md hidden-lg "><a role="menuitem" tabindex="0" href="{{ url('/contact-us') }}"><span tabindex="-1">Contact Us</span></a></li>
+                    <li role="presentation" class="hidden-sm hidden-md hidden-lg "><a role="menuitem" tabindex="0" href="{{ url('/media') }}"><span tabindex="-1">Media</span></a></li>
                     <li class="dropdown hidden-xs ">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
                             <div class="bar-top"></div>
@@ -93,9 +93,9 @@
                             <li role="presentation" class=" hidden-md hidden-lg "><a role="menuitem" tabindex="0" href="/eatdrink.html"><span tabindex="-1">Eat &amp; Drink</span></a></li>
                             <li role="presentation" class=" hidden-lg "><a role="menuitem" tabindex="0" href="/the-spa.html"><span tabindex="-1">The Spa</span></a></li>
                             <li role="presentation" class=" hidden-lg "><a role="menuitem" tabindex="0" href="/weddings.html"><span tabindex="-1">Weddings</span></a></li>
-                            <li role="presentation" class=" "><a role="menuitem" tabindex="0" href="/experience.html"><span tabindex="-1">Experience</span></a></li>
-                            <li role="presentation" class=" "><a role="menuitem" tabindex="0" href="/contact-us.html"><span tabindex="-1">Contact Us</span></a></li>
-                            <li role="presentation" class=" "><a role="menuitem" tabindex="0" href="/media.html"><span tabindex="-1">Media</span></a></li>
+                            <li role="presentation" class=" "><a role="menuitem" tabindex="0" href="{{ url('/experience') }}"><span tabindex="-1">Experience</span></a></li>
+                            <li role="presentation" class=" "><a role="menuitem" tabindex="0" href="{{ url('/contact-us') }}"><span tabindex="-1">Contact Us</span></a></li>
+                            <li role="presentation" class=" "><a role="menuitem" tabindex="0" href="{{ url('/media') }}"><span tabindex="-1">Media</span></a></li>
                         </ul>
                     </li>
                 </ul>

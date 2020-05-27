@@ -21,6 +21,42 @@ Route::get('/villas', function () {
     return view('pages.villas');
 });
 
+Route::get('/oneeighty', function () {
+    return view('pages.oneeighty');
+});
+
+Route::get('/facilities', function () {
+    return view('pages.facilities');
+});
+
+Route::get('/promotions', function () {
+    return view('pages.promotions');
+});
+
+Route::get('/eatdrink', function () {
+    return view('pages.eatdrink');
+});
+
+Route::get('/weddings', function () {
+    return view('pages.weddings');
+});
+
+Route::get('/the-spa', function () {
+    return view('pages.the-spa');
+});
+
+Route::get('/experience', function () {
+    return view('pages.experience');
+});
+
+Route::get('/contact-us', function () {
+    return view('pages.contact-us');
+});
+
+Route::get('/media', function () {
+    return view('pages.media');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
