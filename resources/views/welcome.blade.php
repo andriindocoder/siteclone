@@ -11,33 +11,10 @@
                         <li data-target="#mobile-carousel-hero-152628" data-slide-to="1" class=""></li>
                         <li data-target="#mobile-carousel-hero-152628" data-slide-to="2" class=""></li>
                     </ol>
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="image-mobile" style="background-image: url({{ asset('assets/img/94cdb046-1d0a-4f29-90c8-e90ac5e70bc6.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=991&amp;h=400')}}"></div>
-                        </div>
-                        <div class="item ">
-                            <div class="image-mobile" style="background-image: url({{ asset('assets/img/41d011f1-aef5-4c19-b5b3-1f7502cab0da.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=991&amp;h=400)')}}"></div>
-                        </div>
-                        <div class="item ">
-                            <div class="image-mobile" style="background-image: url(//webbox.imgix.net/images/kifsqlsyyrpwrthq/b6f53e49-15ef-4033-bd06-c48fa79c2b02.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=991&amp;h=400)"></div>
-                        </div>
-                    </div>
+                    <div class="carousel-inner"><div class="item"><div class="image-mobile" style="background-image: url(//webbox.imgix.net/images/kifsqlsyyrpwrthq/94cdb046-1d0a-4f29-90c8-e90ac5e70bc6.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=991&amp;h=400)"></div></div><div class="item"><div class="image-mobile" style="background-image: url(//webbox.imgix.net/images/kifsqlsyyrpwrthq/41d011f1-aef5-4c19-b5b3-1f7502cab0da.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=991&amp;h=400)"></div></div><div class="item active"><div class="image-mobile" style="background-image: url(//webbox.imgix.net/images/kifsqlsyyrpwrthq/b6f53e49-15ef-4033-bd06-c48fa79c2b02.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=991&amp;h=400)"></div></div></div>
                 </div>
                 </div>
-                <div class="image-non-mobile">
-                <div id="carousel-hero-152628" class="carousel slide" data-ride="carousel" data-interval="5000">
-                    <ol class="carousel-indicators custom">
-                        <li data-target="#carousel-hero-152628" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-hero-152628" data-slide-to="1" class=""></li>
-                        <li data-target="#carousel-hero-152628" data-slide-to="2" class=""></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="item active"><img src="{{ asset('assets/img/94cdb046-1d0a-4f29-90c8-e90ac5e70bc6.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=1600&amp;h=600') }}" alt="The edge Luxury Villa Resort, Pecatu, Uluwatu, Bali Indonesia"></div>
-                        <div class="item "><img src="{{ asset('assets/img/41d011f1-aef5-4c19-b5b3-1f7502cab0da.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=1600&amp;h=600') }}" alt=""></div>
-                        <div class="item "><img src="{{ asset('assets/img/b6f53e49-15ef-4033-bd06-c48fa79c2b02.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=1600&amp;h=600') }}" alt=""></div>
-                    </div>
-                </div>
-                </div>
+                <div class="image-non-mobile"><div id="carousel-hero-152628" class="carousel slide" data-ride="carousel" data-interval="5000"><ol class="carousel-indicators custom"><li data-target="#carousel-hero-152628" data-slide-to="0" class=""></li><li data-target="#carousel-hero-152628" data-slide-to="1" class="active"></li><li data-target="#carousel-hero-152628" data-slide-to="2" class=""></li></ol><div class="carousel-inner"><div class="item active left"><img src="//webbox.imgix.net/images/kifsqlsyyrpwrthq/94cdb046-1d0a-4f29-90c8-e90ac5e70bc6.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=1600&amp;h=600" alt="The edge Luxury Villa Resort, Pecatu, Uluwatu, Bali Indonesia"></div><div class="item next left"><img src="//webbox.imgix.net/images/kifsqlsyyrpwrthq/41d011f1-aef5-4c19-b5b3-1f7502cab0da.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=1600&amp;h=600" alt=""></div><div class="item"><img src="//webbox.imgix.net/images/kifsqlsyyrpwrthq/b6f53e49-15ef-4033-bd06-c48fa79c2b02.jpg?auto=format,compress&amp;fit=crop&amp;crop=entropy&amp;w=1600&amp;h=600" alt=""></div></div></div></div>
                 <div class="hero-main-text booking-top">
                 <h1>Welcome to The edge...Bali.</h1>
                 <div class="stars"><span class="fa fa-2x fa-circle"></span><span class="fa fa-2x fa-circle"></span><span class="fa fa-2x fa-circle"></span><span class="fa fa-2x fa-circle"></span><span class="fa fa-2x fa-circle"></span></div>
